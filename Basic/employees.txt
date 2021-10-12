@@ -1,5 +1,7 @@
 jim ,Sales
-Andy ,Sales
+hidy ,Sales
 Kelly ,Customer,Service
 Creed ,Quality ,Assurance 
 Micheael ,Manager
+Oscar,Accounting
+Oscar,Accounting

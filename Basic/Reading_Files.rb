@@ -1,9 +1,10 @@
 
-# any kind file reas through this method
+# any kind file read through this method
 
 
 # give relative path
 # give absolute path
+# r=mode in which mode you want to open file 
 
 File.open("employees.txt" , "r" ) do |file|
 
@@ -28,7 +29,6 @@ end
 # allows us to loop through  all of the line in file 
 # and then for Each line in the file  
 # then for each line we get ,do specific work
-
 File.open("employees.txt","r") do |file|
      
     #  readlines // s is the end 
@@ -41,7 +41,7 @@ end
 
 
 
-# another way
+# another way open file,storing in varibale and use that variable to access 
 file =File.open("employees.txt" ,"r")
 
 puts file.read
