@@ -47,3 +47,5 @@ File.open("employees.txt","r+") do |file|
 
 end
 
+# delete
+file.delete("name.txt")

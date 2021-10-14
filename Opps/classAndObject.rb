@@ -1,4 +1,5 @@
 # class is own custom data type 
+# class is blue print 
 class Book
 
 
@@ -6,7 +7,7 @@ class Book
 
 end 
 
-
+# instance of class
 book1= Book.new()
 book1.titile="Harry Potter"
 book1.author ="Jk Rowling"
